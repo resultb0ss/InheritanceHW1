@@ -1,2 +1,7 @@
-class Dog {
+class Dog: Animal() {
+
+    fun bark(){
+        println("$name лает")
+    }
+
 }
